@@ -1,0 +1,14 @@
+Resources:
+  CounterTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: stellitime-api-counters
+      KeySchema:
+        - AttributeName: "id"
+          KeyType: "HASH"
+      AttributeDefinitions:
+        - AttributeName: "id"
+          AttributeType: "S"
+      ProvisionedThroughput:
+        ReadCapacityUnits: 5
+        WriteCapacityUnits: 5
