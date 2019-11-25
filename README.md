@@ -1,6 +1,6 @@
 # stellitime-api 
 
-## Small sample CLI program to facilitate discussions
+## Small sample program to facilitate discussions
 
 ### Description
 
